@@ -183,8 +183,8 @@ export default class MonitorScreen extends EventEmitter {
         };
 
         // Set iframe attributes
-        // PROD
-        iframe.src = 'https://insite.201422024.xyz';
+        // PROD 内置网站
+        iframe.src = 'https://terminal.201422024.xyz';
         /**
          * Use dev server is query params are present
          *
